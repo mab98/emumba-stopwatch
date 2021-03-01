@@ -1,4 +1,4 @@
-***Functionality:***
+**Functionality:**
 
 **Start:**
 Click event on start button will start stopwatch from the current time.
