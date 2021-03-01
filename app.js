@@ -60,7 +60,7 @@ function watchCounter () {
     displayMinutes = minutes
   }
 
-  time = displayMinutes + ':' + displaySeconds + '.' + displayMilliseconds
+  time = `${displayMinutes}:${displaySeconds}.${displayMilliseconds}`
   display.innerHTML = time
 
   splitMilliseconds++
@@ -88,12 +88,7 @@ function watchCounter () {
     splitDisplayMinutes = splitMinutes
   }
 
-  splitTime =
-    splitDisplayMinutes +
-    ':' +
-    splitDisplaySeconds +
-    '.' +
-    splitDisplayMilliseconds
+  splitTime = `${splitDisplayMinutes}:${splitDisplaySeconds}.${splitDisplayMilliseconds}`
   splitTimeDiv.innerHTML = splitTime
 }
 
